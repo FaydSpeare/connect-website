@@ -1,0 +1,152 @@
+
+.userProfileContainer {
+    border-radius: 10px;
+    background-color: #38363a;
+    width: 220px;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+.emailContainer {
+    border-radius: 10px;
+    background-color: #38363a;
+    width: 230px;
+    text-align: left;
+    padding: 5px 5px;
+}
+
+.profilePictureContainer {
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #38363a;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.welcomeContainer {
+    font-family: MS PGothic, serif;
+    font-size: 35px;
+    color: white;
+    text-shadow: 1px 1px black,
+                2px 2px black,
+                3px 3px black,
+                4px 4px black,
+                5px 5px black;
+    display: inline-block;
+}
+
+.fileLabel {
+    padding: 5px 50px;
+    background-color: #1f1e20;
+    border-radius: 5px;
+    color: white;
+    width: 200px;
+}
+
+.fileInput {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.imageBox {
+    height: 225px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.dragging {
+    border: dashed white 2px;
+    padding: 10px;
+    max-width: 280px;
+    background-color: #1f1e20;
+    border-radius: 10px;
+    min-width: 280px;
+    min-height: 280px;
+}
+
+.notDragging {
+    border: solid #1f1e20 2px;
+    padding: 10px;
+    max-width: 280px;
+    background-color: #1f1e20;
+    border-radius: 10px;
+    min-width: 280px;
+    min-height: 280px;
+}
+
+.commentSectionContainer {
+    background-color: #38363a;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.commentsContainer {
+    display: inline-block;
+    background-color: #1f1e20;
+    width: 600px;
+    height: 434px;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+}
+
+.commentContainer {
+    margin: 5px;
+    text-align: left;
+    padding: 0 10px;
+    height: auto;
+    overflow-wrap: break-word;
+}
+
+.commentInput {
+    width: 600px;
+    height: 25px;
+}
+
+.sideBySideDiv {
+    display: inline-block;
+    //border: 1px solid black;
+    vertical-align: top;
+}
+
+.scrollContent {
+    border: 1px solid black;
+    height: 400px;
+}
+
+.centerPastGame {
+    text-align: center;
+}
+
+.pastGameContainer {
+    width: 600px;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+}
+
+.infoInput:focus {
+    outline: none;
+    border: 2px solid white;
+}
+
+.infoInput {
+    width: 250px;
+    margin: 10px;
+    height: 30px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 2px solid #38363a;
+    font-size: 17px;
+    text-align: center;
+}
+
+.emailBox {
+    display: inline-block;
+    background-color: #38363a;
+    border-radius: 10px;
+    padding: 20px;
+}

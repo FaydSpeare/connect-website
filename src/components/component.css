@@ -1,0 +1,43 @@
+.logoutButton {
+    padding: 10px;
+    margin-top: 6px;
+    margin-right: 20px;
+    vertical-align: center;
+    border: 1px outset white;
+    display: inline-block;
+    color: white;
+    float: right;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #1f1e20;
+}
+
+.logoutButton:focus {
+    outline: none;
+}
+
+.loginButton:focus, .loginButtonPushed:focus {
+    outline: none;
+}
+
+
+.purpleHover:hover {
+    color: #a670ba
+}
+
+.verifyButton:active {
+    outline: none;
+    background-color: green;
+}
+
+.verifyButton {
+    outline: none;
+}
+
+.verifyButton {
+    padding: 3px;
+    width: 230px;
+    background-color: #1f1e20;
+    color: white;
+    border-radius: 10px;
+}

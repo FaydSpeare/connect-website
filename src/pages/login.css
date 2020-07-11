@@ -1,0 +1,90 @@
+.loginPageContainer {
+    text-align: center;
+}
+
+.login-box {
+    display: inline-block;
+    background-color: #38363a;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.loginLabel {
+    font-size: 20px;
+}
+
+.loginInput:focus {
+    outline: none;
+    border: 2px solid white;
+}
+
+.loginInput {
+    width: 250px;
+    margin: 10px;
+    height: 30px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 2px solid #38363a;
+    font-size: 17px;
+    text-align: center;
+}
+
+.loginButton {
+    width: 250px;
+    margin: 10px;
+    height: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    background-color: #a670ba;
+    box-shadow: 0 7px white;
+    color: white;
+}
+
+.loginButton:focus, .loginButtonPushed:focus {
+    outline: none;
+
+}
+
+.loginButton:active {
+    color: black;
+    box-shadow: 0 4px #1f1e20;
+    transform: translateY(4px);
+}
+
+.loginButtonPushed {
+    width: 250px;
+    margin: 10px;
+    height: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0 3px #1f1e20;
+    transform: translateY(4px);
+    background-color: #a670ba;
+}
+
+.checkBoxContainer {
+    text-align: left;
+}
+
+.loginErrorBox {
+    margin-top: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #38363a;
+    color: white
+}
+
+.loginErrorLabel {
+    font-family: MS PGothic, serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+
